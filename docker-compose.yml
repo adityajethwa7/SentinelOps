@@ -1,0 +1,24 @@
+version: "3.9"
+
+services:
+  sentinelops:
+    build: .
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    volumes:
+      - sqlite-data:/app/data
+    depends_on: []
+    command: ["uvicorn", "sentinelops.main:app", "--host", "0.0.0.0", "--port", "8000"]
+
+  # Optional: local kind cluster for integration testing
+  kind-bootstrap:
+    image: kindest/node:v1.30.0
+    privileged: true
+    profiles: ["kind"]
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+
+volumes:
+  sqlite-data:

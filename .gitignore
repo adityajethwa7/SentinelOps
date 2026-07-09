@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+.venv/
+.env
+*.db
+*.sqlite3
+
+# Coverage & Testing
+.coverage
+htmlcov/
+.pytest_cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+
+# Lock files (optional — keep uv.lock if you want reproducible builds)
+# uv.lock
+
+# Agents working directory (generated at runtime)
+.agents/
+
+# Misc
+scripts/refactor_server.py

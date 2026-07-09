@@ -1,0 +1,77 @@
+{
+  "peak_rss_mb": 263.73,
+  "peak_python_heap_mb": 0.0,
+  "total_signals": 1000,
+  "elapsed_seconds": 32.72,
+  "signals_per_second": 30.6,
+  "phase_times": {
+    "ingestion": 0.0173,
+    "processing": 32.707
+  },
+  "per_signal_cost_ms": 32.72,
+  "graph_nodes": 1001,
+  "graph_edges": 1000,
+  "store_incidents": 1000,
+  "top_10_allocations": [
+    {
+      "file": "/Users/aditya/Downloads/SentinelOps/src/sentinelops/agents/planning.py",
+      "line": 59,
+      "size_bytes": 5689225,
+      "count": 1000
+    },
+    {
+      "file": "/usr/local/Cellar/python@3.11/3.11.14_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/unittest/mock.py",
+      "line": 2520,
+      "size_bytes": 2970400,
+      "count": 46220
+    },
+    {
+      "file": "/usr/local/Cellar/python@3.11/3.11.14_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/unittest/mock.py",
+      "line": 2515,
+      "size_bytes": 2880000,
+      "count": 36000
+    },
+    {
+      "file": "/usr/local/Cellar/python@3.11/3.11.14_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/unittest/mock.py",
+      "line": 431,
+      "size_bytes": 2166317,
+      "count": 17919
+    },
+    {
+      "file": "/Users/aditya/Downloads/SentinelOps/.venv/lib/python3.11/site-packages/pydantic/json_schema.py",
+      "line": 1523,
+      "size_bytes": 992040,
+      "count": 8267
+    },
+    {
+      "file": "/usr/local/Cellar/python@3.11/3.11.14_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/unittest/mock.py",
+      "line": 1123,
+      "size_bytes": 765880,
+      "count": 11049
+    },
+    {
+      "file": "/usr/local/Cellar/python@3.11/3.11.14_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/unittest/mock.py",
+      "line": 2513,
+      "size_bytes": 720000,
+      "count": 10000
+    },
+    {
+      "file": "/Users/aditya/Downloads/SentinelOps/.venv/lib/python3.11/site-packages/pydantic/json_schema.py",
+      "line": 430,
+      "size_bytes": 578280,
+      "count": 4819
+    },
+    {
+      "file": "/usr/local/Cellar/python@3.11/3.11.14_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/unittest/mock.py",
+      "line": 1122,
+      "size_bytes": 482400,
+      "count": 4020
+    },
+    {
+      "file": "/usr/local/Cellar/python@3.11/3.11.14_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/unittest/mock.py",
+      "line": 1050,
+      "size_bytes": 458640,
+      "count": 3822
+    }
+  ]
+}
